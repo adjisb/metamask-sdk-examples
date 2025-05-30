@@ -18,10 +18,10 @@ export default function Home() {
                     <div className="flex flex-col gap-10">
                         <div className="max-w-md mx-auto p-6 space-y-6 rounded-lg border border-gray-200">
                             <BalanceCard/>
+                            <Capabilities/>
                             <SendCall/>
                             <TransactionCard/>
                         </div>
-                        <Capabilities/>
                         <div className="p-3 bg-gray-100 rounded-md">
                             <div className="text-sm text-gray-500">Sand Address</div>
                             <div className="font-medium truncate">{Sand.address}</div>

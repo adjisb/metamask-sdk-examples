@@ -91,10 +91,9 @@ export function TransactionCard() {
         })
     const isPending = isTxPending || !account || !account.address;
     const buttons: { [title: string]: () => void } = {
-        'Approve and lock': approveAndLockAction,
-        withdraw: withdrawAction,
-        approve: approveAction,
-        lock: lockAction,
+        Withdraw: withdrawAction,
+        Approve: approveAction,
+        Lock: lockAction,
     }
     return (
         <div className="max-w-md mx-auto p-6 space-y-6 rounded-lg border border-gray-200">

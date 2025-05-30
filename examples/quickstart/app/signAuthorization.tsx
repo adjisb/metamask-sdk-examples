@@ -1,4 +1,4 @@
-import {useAccount, useWalletClient} from "wagmi"
+import {useWalletClient} from "wagmi"
 import {Button} from "@/components/ui/button";
 import {useState} from "react";
 import {METAMASK_DELEGATOR} from "@/wagmi.config";
